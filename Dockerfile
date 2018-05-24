@@ -5,4 +5,5 @@ RUN apk add --no-cache \
     unzip \
     curl \
     wget \
-    git
+    git \
+    openssh-client
