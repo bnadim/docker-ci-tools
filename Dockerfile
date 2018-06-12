@@ -7,4 +7,11 @@ RUN apk add --no-cache \
     curl \
     wget \
     git \
-    openssh-client
+    openssh-client \
+    python \
+    python-dev \
+    py-pip \
+    build-base \
+    ncurses
+
+RUN pip install awscli
